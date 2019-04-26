@@ -85,3 +85,6 @@ git tag -a -m | Ajout de version et message au tag
 git branch branch_name | Création branch
 git branch -a | Lister les branches
 git checkout dest_branch_name | changer de branch
+
+## :book: Annexe
+- [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
