@@ -66,3 +66,22 @@ Basculement sur une branche
 ```bash
 > git checkout nom_de_la_branche
 ```
+
+## :page_facing_up: Liste des commandes Git
+
+Commandes | Explications
+----------|-------------
+git clone [url] | Cloner un projet
+git init | Initialiser un projet
+git add fichier1 | Ajouter les fichiers au prochain commit
+git reset HEAD fichier | Enlever un fichier ajouter au commit (undo git add)
+git status  | Status des fichiers
+git diff | Visualiser ce qui a été modifié mais pas encore indexé
+git commit | Enregistrer les modifications
+git commit -m "message de commit" | Enregistrer sans passer par l'éditeur (ajout direct d'un commentaire)
+git commit -a | Tout commit sans passer par add
+git tag | Placer un tag sur un commit
+git tag -a -m | Ajout de version et message au tag
+git branch branch_name | Création branch
+git branch -a | Lister les branches
+git checkout dest_branch_name | changer de branch
